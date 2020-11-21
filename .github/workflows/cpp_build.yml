@@ -19,8 +19,8 @@ jobs:
       # Runs the Super-Linter action
       - name: Build code
         run: |
-        mkdir build
-        cd build
-        cmake ..
-        cmake . --build
+          mkdir build
+          cd build
+          cmake ..
+          cmake . --build
         
